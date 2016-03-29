@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.logo {
+	border-radius: 50%;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: red;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#page-wrap {
+	width: 350px;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px #fff solid;
+}
+
+h1 {
+	text-align: center;
+}
+
+#states {
+	padding-left: 26px;
+}
+
+#states li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 8px;
+}
+
+#states li button {
+	margin-bottom: 15px;
+    border-radius: 3px;
+    border-color: transparent;
+    width: 90px;
+    padding: 5px;
+}
+
+.online {
+	background-color: green;
+}
+
+.offline {
+	background-color: red;
+}
+
+.result {
+	padding: 10px;
+}
