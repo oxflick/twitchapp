@@ -1,10 +1,10 @@
 
 $(document).ready(function() {
   // array of stream users we are interested to display
-  var streamers = ["freecodecamp", "storbeck", "terakilobyte", "LiveWithJazza", "habathcx","RobotCaleb","thomasballinger","noobs2ninjas","beohoff", "californithon", "brunofin", "comster404"]	
+  var streamers = ["freecodecamp", "storbeck", "terakilobyte", "LiveWithJazza", "habathcx","RobotCaleb","thomasballinger","noobs2ninjas","ESL_SC2", "OgamingSC2", "brunofin", "comster404"]	
   // loop try json calls with each users
   for (var j=0; j < streamers.length; j++) {
-  	var twUrl = 'https://api.twitch.tv/kraken/channels/' + streamers[j] + '';
+  	var twUrl = 'https://api.twitch.tv/kraken/channels/' + streamers[j] + '?client_id=iuy5ubr0o42ch85ghs8wmzklvdkpz1q&callback=?' + '';
   	$.getJSON(twUrl, {
 
   	})
